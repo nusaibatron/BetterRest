@@ -14,6 +14,8 @@
 		CD7918C128B56C5D00E4D51C /* BetterRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7918C028B56C5D00E4D51C /* BetterRestTests.swift */; };
 		CD7918CB28B56C5D00E4D51C /* BetterRestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7918CA28B56C5D00E4D51C /* BetterRestUITests.swift */; };
 		CD7918CD28B56C5D00E4D51C /* BetterRestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7918CC28B56C5D00E4D51C /* BetterRestUITestsLaunchTests.swift */; };
+		CD7918DA28BD63D900E4D51C /* BetterRest.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = CD7918D928BD63D900E4D51C /* BetterRest.mlproj */; };
+		CD7918DE28BD64CE00E4D51C /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CD7918DD28BD64CE00E4D51C /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CD7918C628B56C5D00E4D51C /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7918CA28B56C5D00E4D51C /* BetterRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITests.swift; sourceTree = "<group>"; };
 		CD7918CC28B56C5D00E4D51C /* BetterRestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD7918D928BD63D900E4D51C /* BetterRest.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BetterRest.mlproj; sourceTree = "<group>"; };
+		CD7918DD28BD64CE00E4D51C /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		CD7918AE28B56C5800E4D51C /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
+				CD7918DD28BD64CE00E4D51C /* SleepCalculator.mlmodel */,
+				CD7918D928BD63D900E4D51C /* BetterRest.mlproj */,
 				CD7918AF28B56C5800E4D51C /* BetterRestApp.swift */,
 				CD7918B128B56C5800E4D51C /* ContentView.swift */,
 				CD7918B328B56C5C00E4D51C /* Assets.xcassets */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7918B728B56C5C00E4D51C /* Preview Assets.xcassets in Resources */,
+				CD7918DA28BD63D900E4D51C /* BetterRest.mlproj in Resources */,
 				CD7918B428B56C5C00E4D51C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7918B228B56C5800E4D51C /* ContentView.swift in Sources */,
+				CD7918DE28BD64CE00E4D51C /* SleepCalculator.mlmodel in Sources */,
 				CD7918B028B56C5800E4D51C /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
